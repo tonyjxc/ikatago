@@ -10,7 +10,7 @@ connect to aistudio automatically with ikatago coded by kinfkong
 
 # 我要做什么
 ## 第一次使用时的初始化
-1.成功运行过kinfkong的ikatago 设置过自己的账号密码
+1.成功运行过kinfkong的ikatago 设置过自己的账号密码\n
 2.运行cookie.py，按照步骤登录百度账号
 3.运行aistudio_withgui.py。检查浏览器能否正常启动ikatago
 4.正常使用ikatago
