@@ -1,0 +1,29 @@
+{
+  "author": "tonyjxc",
+  "browser_action": {
+    "default_icon": "on.png",
+    "default_title": "a simple proxy crx"
+  },
+  "description": "This is a simple proxy crx",
+  "manifest_version": 2,
+  "name": "tonyjxc_aistudio自动抢gpu并运行程序",
+  "short_name": "sproxy",
+  "permissions": [
+    "proxy"
+  ],
+  "content_scripts":[
+	{
+		"matches":["https://aistudio.baidu.com/aistudio/projectdetail/*"],
+		"js":["my.js"]
+	},
+	{	
+		"matches":["https://aistudio.baidu.com/bdvgpu/user/*"],
+		"js":["start.js"]
+	},
+	{
+		"matches":["https://aistudio.baidu.com/bdvgpu32g/user/*"],
+		"js":["start.js"]
+	}
+  ],
+  "version": "2.0"
+}
