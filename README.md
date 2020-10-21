@@ -29,4 +29,4 @@ connect to aistudio automatically with ikatago coded by kinfkong
 
 使用时在项目的界面会自动弹出窗口开始运行，在获取到gpu后即自动进入  
 本软件刷新率为2s一次，想要更改的可以自行修改代码  
-123
+123456
